@@ -31,7 +31,7 @@
 # >lowbwt$ageCat <- factor(lowbwt$ageCat, labels=c('mother under 15 yrs of age', 'mother 15-25 yrs of age', 'mother 25-35 yrs of agek', 'mother over 35 yrs of age'))
 
 # 4. Show a frequency table of the new ordinal age variable (that you created in #3) and explain your coding scheme.
-# table(lowbwt$LOW, lowbwt$ageCat, dnn=c("low birth weight", "mothers age in years"))
+# freqtable(lowbwt$ageCat)
 # The interval/ratio variable of age was evaluated and put into 10 year ranges.
 
 # 5. Show a crosstab of Low Birth Weight BY Age of Mother, making sure to use variables at the appropriate levels of measurement.
