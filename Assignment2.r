@@ -100,3 +100,15 @@
 # TRUE  0.2521739 0.4054054
 
 
+1. Review level of measurement for variable PTL
+2. good. You can also use the freqtable function here
+3. You can describe the distribution in a general sense: what does the variable represent? How many observations do we have in the sample? In this sample were there more woman who smoked or who did not smoke during pregnancy?
+4. good
+5. See comments from #3
+6. good
+7. good
+8. good. to add labels to your crosstab you can use the following tab: prop.table(table(lowbwt$LOW, lowbwt$SMOKE, dnn=c("Low Birth Weight", "Smoking Status During Pregnancy")),2)
+9. good
+
+
+
